@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""envio de alertas"""
+"""envio de mensajes emergentes durante la ejecucion del juego"""
 from tkinter import Frame, Label, Tk, BOTH, YES, mainloop
 
 
