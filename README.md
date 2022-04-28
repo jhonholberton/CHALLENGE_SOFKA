@@ -36,7 +36,7 @@ https://julioecheverri.wordpress.com/2016/01/06/instalar-tkinter-en-linux/
 
 una vez lo hayamos instalado y hayamos clonado el repositorio solo debemos ejecutar nuestro archivo ejecutar.py y dara inicio al juego.
 
-se puede dar manera al juego de dos maneras teniendo un usuario registrado e iniciando sesion o registrando un nuevo usuario, tenga en cuenta dar todos los datos solucitados para que el juego lo deje registrar.
+se puede dar inicio al juego de dos maneras teniendo un usuario registrado e iniciando sesion o registrando un nuevo usuario, tenga en cuenta dar todos los datos solucitados para que el juego lo deje registrar.
 
 #### Files
 Files | Description |
