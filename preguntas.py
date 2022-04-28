@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""colsulta de base y tablas de datos de las preguntas y demas parametros requeridos por medio de sqlite"""
+"""aqui se crea la tabla de preguntas apartir del archivo banco.json"""
 import sqlite3
 import json
 
