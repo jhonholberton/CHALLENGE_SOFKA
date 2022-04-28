@@ -42,7 +42,7 @@ se puede dar inicio al juego de dos maneras teniendo un usuario registrado e ini
 Files | Description |
 -------- | ----------- |
 **ejecutar.py** | aqui se encuentra el motor del funcionamieto del juego |
-**juego.py**     | aqui se encuentra la estructura de la ejecucion de juego juego |
+**juego.py**     | aqui se encuentra la estructura de la ejecucion del juego|
 **preguntas.py**      | aqui se crea la tabla de preguntas apartir del archivo banco.json|
 **Mi_Base.db**  | base de datos para el juego |
 **banco.json**    | apartir de este archivo se crea la tabla de preguntas en la base de datos |
