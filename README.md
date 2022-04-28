@@ -30,7 +30,7 @@ Cuando nos conectamos a una base de datos SQLite, accedemos a datos que finalmen
 
 Tkinter es la biblioteca GUI estándar para Python . Python, cuando se combina con Tkinter, proporciona una forma rápida y fácil de crear aplicaciones GUI. Tkinter proporciona una poderosa interfaz orientada a objetos para el kit de herramientas Tk GUI.
 
-Para poder usar nuestro juego se debe instalar el modulo de Tkinter (instalacion en linux), a continuacuon le dejamos un enlace para que se guie en la instalacion del mismo:
+Para poder usar nuestro juego se debe instalar el modulo de Tkinter (instalacion en linux), a continuacion dejamos un enlace para que se guie en la instalacion del mismo:
 
 https://julioecheverri.wordpress.com/2016/01/06/instalar-tkinter-en-linux/
 
