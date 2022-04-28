@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""ejecutar el juego"""
+"""aqui se encuentra el motor del funcionamieto del juego"""
 from tkinter import BOTH, CENTER, LEFT, YES, Button, Entry, Frame, Label, Tk
 from datetime import datetime
 import sqlite3
@@ -101,7 +101,7 @@ class inscripcion:
         self.inicio.mainloop()
 
     def validar_sesion(self, alias, contrasena):
-        "metodo para validar inicio de sesion"
+        "metodo para validar campos de inicio de sesion"
         if alias == "":
             la_alerta = alerta("campo de alias es obligatorio")
             la_alerta.contenedor()
@@ -130,17 +130,16 @@ class inscripcion:
             la_alerta.contenedor()
 
     def cambio_ventana(self):
-        """   """
+        """metodo para hacer sucesión de una ventana a otra"""
         self.micontenedor2.destroy()
         self.contenedor()
 
     def cambio_texto(self):
-        """   """
         if self.texto2.get() == "DD-MM-AAAA":
             self.texto2.delete(0, "end")
 
     def cambio_texto1(self):
-        """   """
+        """metodo para verificar que el formato de la fecha de nacimiento"""
         if self.texto2.get() == "":
             self.texto2.insert(0, "DD-MM-AAAA")
             self.texto2.config(justify=CENTER)
@@ -154,7 +153,7 @@ class inscripcion:
                 self.resultado = False
 
     def Guardarbd(self, nombre, fecha_nacimiento, edad, correo, alias, contrasena):
-        """metodo para validar y controlar que los datos en registro sean correctos"""
+        """metodo para validar que cada uno de los campos en registro esten completos y cargar el resgistro a la base de datos"""
         self.cambio_texto1()
         if self.resultado == False:
             la_alerta = alerta("Error de formato en la fecha, debe ser DD-MM-AAAA")
