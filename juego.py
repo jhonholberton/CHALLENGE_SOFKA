@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""inicio del juego"""
+"""aqui se encuentra la estructura de la ejecucion del juego"""
 from tkinter import BOTH, LEFT, YES, Button, Frame, Label, Tk, messagebox
 import sqlite3
 import random
@@ -133,7 +133,7 @@ class juego():
                 self.jugar.destroy()
 
     def me_rindo(self, gano):
-        """metodo para validar si se gana o pierde"""
+        """metodo para validar si se gana o se pierde el juego y terminarlo o continuar jugando"""
         premio = 0
         nivel = self.niveles -1 if gano == False else self.niveles
         for i in range(0, nivel):
