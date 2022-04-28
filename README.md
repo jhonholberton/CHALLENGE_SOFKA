@@ -39,12 +39,12 @@ una vez lo hayamos instalado y hayamos clonado el repositorio solo debemos ejecu
 #### Files
 Files | Description |
 -------- | ----------- |
-**ejecutar.py** | ejecutar el juego |
-**juego.py**     | inicio del juego |
-**preguntas.py**      | colsulta de base y tablas de datos de las preguntas y demas parametros requeridos por medio de sqlite |
+**ejecutar.py** | aqui se encuentra el motor del funcionamieto del juego |
+**juego.py**     | aqui se encuentra la estructura de la ejecucion de juego juego |
+**preguntas.py**      | aqui se crea la tabla de preguntas apartir del archivo banco.json|
 **Mi_Base.db**  | base de datos para el juego |
-**banco.json**    | archivo de texto para estructurar los datos del juego |
-**alertas.py** | envio de alertas |
+**banco.json**    | apartir de este archivo se crea la tabla de preguntas en la base de datos |
+**alertas.py** | envio de mensajes emergentes durante la ejecucion del juego |
 
 
 
